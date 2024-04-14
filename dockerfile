@@ -7,8 +7,8 @@ COPY . /app
 WORKDIR /app
 # Install any needed packages specified in requirements.txt
 RUN pip install --upgrade pip
-RUN pip install chainlit==1.0.502 openai==1.17.1 open-interpreter==0.2.4
- 
+RUN pip install chainlit==1.0.502 openai==1.6.1 open-interpreter==0.2.4
+# use openai==1.17.1 for interpreter
 # Print the location of tesseract executable
 #RUN which tesseract
 
