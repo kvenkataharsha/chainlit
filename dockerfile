@@ -18,4 +18,5 @@ ENV OPENAI_API_KEY=
 EXPOSE 8000
 
 # Run script.py when the container launches
+CMD ["python", "create_assistant.py"]
 CMD ["chainlit", "run", "./app.py"]
