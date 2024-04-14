@@ -23,7 +23,7 @@ async def create():
         tools=[{"type": "code_interpreter"}],
         model="gpt-4-1106-preview",
     )
-    assistant_name = "math_tutor_and_weather_bot"
+    assistant_name = "csv_assistant"
     # append key value pair to assistants.json
 
     def load_or_create_json(filename):
